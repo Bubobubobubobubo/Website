@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
-    <nav class="bg-black fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-black">
+    <nav class="bg-black w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-black">
         <div class="w:100 flex flex-wrap items-center justify-between p-4 mr-2">
-        <a href="https://raphaelforment.fr" class="flex items-center">
+        <a href="/" class="flex items-center">
             <img src="https://sardine.raphaelforment.fr/sardine_logo.svg" class="h-8 mr-3" alt="Flowbite Logo">
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Raphaël Maurice Forment</span>
         </a>
@@ -40,8 +40,9 @@
         </div>
         </div>
     </nav>
+
     <main>
-      <div class="flex-grow px-5 pt-10 pb-20">
+      <div class="flex-grow px-5 pb-12 pt-12">
         {{ content | safe }}
       </div>
     </main>
