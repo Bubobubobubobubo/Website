@@ -25,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: Copy style.css to top folder
-        run: cp ./public/css/style.css ./style.css
+        run: cp /public/css/style.css style.css
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
