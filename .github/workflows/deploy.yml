@@ -3,7 +3,7 @@ name: Deploy Static NPM Project to GitHub Pages
 on:
   push:
     branches:
-      - master # Modify this to match your main branch
+      - master
 
 jobs:
   deploy:
@@ -24,13 +24,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Copy style.css to top folder
-        run: cp /public/css/style.css style.css
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
-
