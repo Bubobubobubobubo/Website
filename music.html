@@ -5,7 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Musique</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans"
+    />
   </head>
+  <style>
+    body {
+      font-family: "IBM Plex Sans", monospace;
+    }
+  </style>
   <body>
     <nav
       class="sticky top-0 bg-gray-800 w-full z-20 left-0 border-b border-gray-800 overflow-hidden"
@@ -96,11 +105,10 @@
     class="mt-8 bg-gray-800 rounded text-white py-4 lg:py-12 mx-8 lg:mx-6"
   >
     <p class="text-normal lg:text-justify sm:text-lg lg:text-2xl px-4 lg:px-12">
-      Je réalise des performances musicales improvisées à partir des outils que
-      je conçois. J’utilise mon ordinateur comme séquenceur algorithmique et
-      délègue la synthèse et le traitement sonore à des outils externes :
-      synthétiseurs modulaires, boîtes à rythme, expandeurs. J'accompagne
-      régulièrement le
+      Je réalise des performances musicales improvisées à partir de mes propres
+      outils. Mon ordinateur est mon séquenceur principal. Je délègue la
+      synthèse et le traitement du son à des outils externes : synthétiseurs
+      modulaires, boîtes à rythme, expandeurs. J'accompagne régulièrement le
       <a href="https://cookie.paris">Cookie Collective</a> (Paris) ou les
       membres de la <i>Digital Audio Community à Lyon</i>. J'utilise plus
       rarement le <a href="https://monome.org/docs/teletype/">Teletype</a> pour
@@ -122,7 +130,7 @@
           Sardine: Live-Coding musical <br class="hidden lg:inline-block" />pour
           interpréteur Python 3.10+
         </h1>
-        <p class="mb-8 leading-relaxed">
+        <p class="lg:text-justify mb-8 leading-relaxed">
           Sardine est un environnement pour l'improvisation musicale
           algorithmique (<i>live coding</i>) en Python. Sardine permet
           d'improviser de la musique au travers du code et d'interconnecter
@@ -168,7 +176,7 @@
           <br class="hidden lg:inline-block" />sans installation, sur le web
           (JS/TS)
         </h1>
-        <p class="mb-8 leading-relaxed">
+        <p class="lg:text-justify mb-8 leading-relaxed">
           Topos est un projet sur lequel je travaille pendant mon temps libre.
           Il s'agit d'une reconstruction du
           <a href="https://monome.org/docs/teletype/">Monome Teletype</a>
@@ -180,13 +188,13 @@
         <div class="flex justify-center">
           <button
             class="mr-2 inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
-            onclick="window.location.href='https://github.com/Bubobubobubobubo/Monocosm';"
+            onclick="window.location.href='https://github.com/Bubobubobubobubo/Topos';"
           >
             GitHub
           </button>
           <button
             class="mr-2 inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
-            onclick="window.location.href='https://monocosm.raphaelforment.fr';"
+            onclick="window.location.href='https://topos.raphaelforment.fr';"
           >
             Site
           </button>
@@ -222,7 +230,7 @@
           SliderWolf: un contrôleur <br class="hidden lg:inline-block" />MIDI
           ASCII pour le terminal
         </h1>
-        <p class="mb-8 leading-relaxed">
+        <p class="lg:text-justify mb-8 leading-relaxed">
           SliderWolf est un <i>proof of concept</i> pour un contrôleur MIDI
           pouvant être utilisé de manière complémentaire à un environnement de
           <i>live coding</i> plus complexe. Le logiciel n'est aujourd'hui qu'un
